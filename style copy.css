@@ -1,0 +1,329 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.wrapper {
+    position: relative;
+    width: 1440px;
+    height: 550px;
+    margin-left: 33px;
+    margin-right: 22px;
+}
+
+
+.wrapper .header{
+    font-size: 20px;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    left: 0px;
+    background-image: url("assets/img/patungkuda 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper .header .logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+}
+
+.wrapper .header .overlay{
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .header .headtext1{
+    height: 61px;
+    margin-top: 115px;
+    color: white;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 61px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.wrapper .header .headtext1 .headtext2{
+    height: 38px;
+    color: white;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.wrapper .divider {
+    height: 21px;
+    background: #A8FAFF;
+}
+.navbar ul{
+    top: 33px;
+    right: 22px;
+    position: absolute;
+    float: right;
+    display: flex;
+}
+.navbar ul li{
+    margin-right: 50px;
+    position: relative;
+    list-style-type: none;
+    
+}
+.navbar ul li a {
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 32px;
+    text-decoration: none;    
+    color: white;
+}
+
+
+
+.cabang {
+    position: absolute;
+    bottom: 92px;
+    left: 40px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+.navcabang ul {
+    position: absolute;
+    float: right;
+    display: flex;
+}
+
+.navcabang ul li {
+    margin-right: 11px;
+    position: relative;
+    list-style-type: none;
+}
+.navcabang ul li .boxcabang {
+    width: 68.32px;
+    height: 65px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcabang ul li .boxcabang a {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+    width: 1440px;
+    margin-top: 21px;
+    height: 1540px;
+    margin-left: 33px;
+    margin-right: 22px;
+    background: rgba(251, 228, 147, 0.75);
+}
+
+.main .galeri {
+    position: absolute;
+    top: 32px;
+    left: 120px;
+}
+
+
+
+.rightside{
+    position: absolute;
+    top: 69px;
+    right: 93px;
+    width: 441px;
+    height: 360px;
+}
+
+.p1{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    top: 0px;
+    position: relative;
+    color: #000000;
+}
+
+.p2{
+    bottom: 111px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    position: absolute;
+    color: #000000;
+}
+
+.slk{
+    bottom: 0px;
+    position: absolute;
+}
+
+
+.main .footer{
+    position: absolute;
+    bottom: 0px;
+    height: 266px;
+    width: 100%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    background-color: #001273;
+    margin: 0;
+    padding: 0;
+}
+
+.bottext {
+    bottom: 0px;
+    left: 445px;
+    position: absolute;
+}
+
+.slideshow-container {
+    max-width: 550px;
+    position: relative;
+    float: left;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+
+    margin-top: 10px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .boxtext {
+      background-color: black;
+      width: 100%;
+      height: 39px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+      /* CLearfix */
+      .main .clearfix:before, .main .clearfix:after {
+        content: "";
+        display: table;
+        }
+        .main .clearfix:after {
+        clear: both;
+        }
+        .main .clearfix {
+        *zoom: 1;
+        }

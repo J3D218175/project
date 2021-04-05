@@ -1,0 +1,903 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.web {
+    height: fit-content;
+    width: 1495px;
+    background-color: #717171;
+}
+.wrapper {
+    position: relative;
+    width: 1440px;
+    height: 529px;
+    margin: 10px 22px auto 33px;
+}
+
+
+.wrapper .header{
+    font-size: 20px;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    left: 0px;
+    background-image: url("assets/img/patungkuda 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper .header .logo{
+    position: absolute;
+    margin: 23px auto auto 40px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.wrapper .header .overlay{
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .header .headtext1{
+    height: 61px;
+    margin-top: 115px;
+    color: white;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 61px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.wrapper .header .headtext1 .headtext2{
+    height: 38px;
+    color: white;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.divider {
+    margin-left: auto;
+    margin-right: 22px;
+    width: 1440px;
+    height: 21px;
+    background: inherit;
+}
+
+.navbar ul{
+    top: 33px;
+    right: 22px;
+    position: absolute;
+    float: right;
+    display: flex;
+}
+
+.navbar ul li{
+    margin-right: 50px;
+    position: relative;
+    list-style-type: none;
+    
+}
+
+.navbar ul li a {
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 32px;
+    text-decoration: none;    
+    color: white;
+}
+
+
+
+.cabang {
+    position: absolute;
+    bottom: 92px;
+    left: 40px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+.navcabang ul {
+    position: absolute;
+    float: right;
+    display: flex;
+}
+
+.navcabang ul li {
+    margin-right: 11px;
+    position: relative;
+    list-style-type: none;
+}
+.navcabang ul li .boxcabang {
+    width: 68.32px;
+    height: 65px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navcabang ul li .boxcabang a {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-lp {
+    position: relative;
+    width: 1440px;
+    margin-top: 21px;
+    height: fit-content;
+    margin-left: 33px;
+    margin-right: 22px;
+    background: #001273;
+}
+
+.main {
+    position: relative;
+    width: 1440px;
+    margin-top: 21px;
+    height: fit-content;
+    margin-left: 33px;
+    margin-right: 22px;
+    background: #001273;
+    padding-bottom: 50px;
+}
+
+.galeri {
+    position: absolute;
+    top: 32px;
+    left: 120px;
+}
+
+.galeri p{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    /* identical to box height */
+    color: #000000;
+}
+
+
+.rightside{
+    position: absolute;
+    top: 69px;
+    right: 93px;
+    width: 441px;
+    height: 360px;
+}
+
+.rightside .p1{
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    top: 0px;
+    position: relative;
+    color: #000000;
+}
+
+.rightside .p2{
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-size: 25px;
+    line-height: 32px;
+    position: absolute;
+    color: #000000;
+}
+
+.slk {
+    bottom: 0px;
+    height: 54px;
+    width: 302px;
+    position: absolute;
+    background-color:grey;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 54px;    
+    text-decoration: none;
+    color: black;
+}
+
+.slk:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.slicer{
+    height: 101px;
+    width: 100%;
+    background: grey;
+    top: 560px;
+    position: absolute;
+}
+
+.slicer .slicermain{
+    left: 53px;
+    top: 17px;
+    position: absolute;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+.wrap-kg {
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.kegiatan {
+    margin-top: 773px;
+    margin-left: 87px;
+    width: 371px;
+    height: auto;
+    display: inline-block;
+}
+
+.kegiatan-pict {
+    width: 371px;
+    height: 415px;
+    background: gray;
+}
+
+.kegiatan-kgname {
+    border-radius: 0px 0px 20px 20px;
+    background: grey;
+    width: 371px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kg-title {
+    position: absolute;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    color: #f2f2f2;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 325px;
+    text-align: center;
+}
+
+.kg-date {
+    position: absolute;
+    margin: 85px auto 12px auto;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.kegiatan-more {
+    margin: 126px 46px 0px auto;
+    height: 54px;
+    width: 302px;
+    background-color:grey;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 54px;    
+    text-decoration: none;
+    color: black;
+}
+
+.kegiatan-link {
+    color: black;
+    text-decoration: none;
+}
+.kegiatan-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.art-content {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+}
+
+.footer {
+    padding: 1px;
+    position: relative;
+    height: 266px;
+    width: 1440px;
+    background-color: grey;
+    margin: auto 22px auto 33px;
+}
+
+.kontaklist {
+    position: absolute;
+    height: 166px;
+    width: 612px;
+    margin: 22px 78px auto 53px;
+}
+
+.pnama{
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.palamat{
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.bottext {
+    margin: 232px auto 36px 455px;
+    width: 550px;
+    height: 23px;
+    position: absolute;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+}
+
+.ft-medialist {
+    margin: 76px 210px auto auto;
+    width: 280px;
+    height: 76px;
+}
+
+.ft-medialist p{
+    margin: 5px auto 11px 10px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+
+.ft-medialist span img{
+    margin: auto 24px auto auto;
+}
+
+.slideshow-container {
+    max-width: 550px;
+    position: relative;
+    float: left;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    line-height: 39px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .boxtext {
+      background-color: grey;
+      width: 100%;
+      height: 39px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    height: 50px;
+    width: 50px;
+    background: grey;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* CLearfix */
+.main-lp .clearfix:before, .main-lp .clearfix:after {
+content: "";
+display: table;        
+}        
+.main-lp .clearfix:after {        
+clear: both;        
+}        
+.main-lp .clearfix {        
+*zoom: 1;        
+}        
+
+.midpic {
+    margin-top: 44px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    height: 469px;
+    width: 100%;
+    background: white;
+    position: relative;
+}
+
+.art-title {
+    padding: 1px;
+    height: 115px;
+    background:grey;
+    width: 100%;
+
+}
+
+.art-title .p1{
+    margin-left: 44px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    line-height: 51px;
+}
+
+.art-title .p2{
+    margin-left: 44px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.art-main {
+    height: 354px;
+    width: 100%;
+    background: #001273;
+}
+
+.article .art-main .pict {
+    position: relative;
+    top: 29px;
+}
+
+.article .art-main .art-spo {
+    position: relative;
+    left: 487px;
+    bottom: 270px;
+    height: 137px;
+    width: 907px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.art-more {
+    position: absolute;
+    left: 487px;
+    bottom: 150px;
+    height: 45px;
+    width: 208.93px;
+    background-color:grey;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 45px;    
+    text-decoration: none;
+    color: black;
+}
+
+.art-more:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.art-nav {
+    height: 45px;
+    width: 208.93px;
+    background-color:grey;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 45px;    
+    text-decoration: none;
+    color: black;
+}
+
+.art-link {
+    width: 210px;
+    height: 50px;
+    background-color:grey;
+    text-decoration: none;
+    color: black;
+}
+
+.art-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.art-nav-dead {
+    height: 45px;
+    width: 208.93px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 45px;    
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    opacity: 0.75;
+}
+
+.con-header {
+    width: 100%;
+    height: 156px;
+    background:grey;
+}
+
+.con-header h1{
+    margin: 8px auto auto 44px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000000;
+}
+
+.con-header .con-date {
+    margin: 37px auto auto 44px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.cont-header {
+    padding: 1px;
+    height: 100px;
+    width: 100%;
+    background:grey;
+}
+
+.cont-header h1{
+    margin-top: 15px;
+    margin-left: 46px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000000;
+}
+
+.profil-content {
+    margin-top: 35px;
+    margin-left: 48px;
+    margin-bottom: 89px;
+    padding: 1px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    text-align: justify;
+}
+
+.getStruktur {
+    margin: 44px 330px 330px 568px;
+    padding: 1px;
+    height: 46px;
+    width: 253px;
+    background-color:grey;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 46px;    
+    text-decoration: none;
+    color: black;
+}
+
+.getStruktur a {
+    color: black;
+    text-decoration: none;
+}
+
+.getStruktur a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.struktur-container {
+    padding: 1px;
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+
+.struktur-divisi {
+    color: black;
+    text-decoration: none;
+}
+
+.struktur-divisi:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.struktur-wrapper {
+    padding: 1px;
+    width: 70%;
+    margin: 20px auto 20px auto;
+    background-color: #C4C4C4;
+}
+
+.struktur-table {
+    text-align: center;
+    min-width: 70%;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.struktur-table th {
+    border: 0px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;  
+    background-color: grey; 
+}
+
+.struktur-table td {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+    background-color: white;
+}
+
+.div-group {
+    padding: 1px;
+    margin: 20px 75px 39px auto;
+    width: 1340px;
+    display: grid;
+    grid-template-columns: 646px 646px;
+
+}
+
+.div-data {
+    padding: 1px;
+    margin: 20px 75px 39px 43px;
+    width: fit-content;
+}
+
+.div-title {
+    padding: 1px;
+    margin: 20px auto 20px 43px;
+    max-width: 646px;
+    width: fit-content;
+    min-width: 214px;
+    height: 51px;
+    background:grey;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 51px;
+    color: black;
+    text-align: center;
+}
+
+.div-member {
+    padding: 1px;
+    margin-left: 43px;
+    height: 244px;
+    width: 646px;
+    display: inline-block;
+}
+
+.div-member img{
+    height: 244px;
+    width: 214px;
+    display: inline-block;
+}
+
+.div-member .details{
+    position: absolute;
+    height: 244px;
+    width: 425px;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.div-member .details h4{
+    margin: 16px auto 18px 50px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.div-member .details p{
+    margin-left: 50px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.lampiran {
+    margin: 10px auto auto auto;
+    height: 440px;
+    width: 547px;
+    justify-content: center;
+}
+
+.lampiran-p {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    /* identical to box height */
+    color: #000000;
+}
+      /* CLearfix */
+      .main .clearfix:before, .main .clearfix:after {
+        content: "";
+        display: table;
+        }
+        .main .clearfix:after {
+        clear: both;
+        }
+        .main .clearfix {
+        *zoom: 1;
+        }
